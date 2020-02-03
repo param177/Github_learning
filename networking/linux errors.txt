@@ -1,0 +1,63 @@
+Fix ‘E: Could not get lock /var/lib/dpkg/lock’ Error in Ubuntu [Quick Tip]
+ou can also use the Linux command line to find and kill the running process. To do that, use the command below:
+
+ps aux | grep -i apt
+
+sudo kill -9 <process id>
+
+
+
+
+
+
+
+
+
+
+
+
+
+sudo apt­get install python­pyaudio
+sudo apt­get install python­matplotlib
+sudo apt­get install python­sounddevice
+You can then simply start python in interactive
+mode by typing the command
+python
+or
+ipython –pylab
+or execute a python script with
+python script.py
+
+///////////////////////////////////////////////////////////////
+
+sudo apt-get update && && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y && sudo apt-get install libportaudio-dev
+
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+Hidden files and folder have names that start with a . (dot character). To toggle show/hide hidden files or folders use the keyboard shortcut Ctrl+H.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+how to link external libraries in eclipse
+
+
+https://www.dev2qa.com/how-to-add-python-module-library-in-eclipse-pydev/
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+to see any install module in linux
+
+
+pip show packagename
+ex- pip show sounddevice
+
+//////////////////////////////////////////////////////
+useful lib for sound
+https://realpython.com/playing-and-recording-sound-python/
+
+////////////////////////////////////////////////////////////
+
+playing a sound
+https://python-sounddevice.readthedocs.io/en/0.3.11/
